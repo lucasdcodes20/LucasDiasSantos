@@ -9,7 +9,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+/*cabeçalho*/
+header {
+    background-color: #202329; 
+    color: #61AFEF; 
+    padding: 20px;
+    text-align: center;
+}
 /* Menu de navegação */
 nav {
     background-color: #bb079d; 
