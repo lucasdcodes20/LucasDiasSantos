@@ -1,0 +1,102 @@
+/* Estilos gerais para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202329; 
+    color: #ABB2BF; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #bb079d; 
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav a {
+    color: #fdfdfd; 
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 5px;
+    display: inline-block;
+    font-size: 1.1em;
+    border: none; /* Remove a borda padrão dos links */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #56B6C2; 
+}
+
+/* Layout principal da página */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Seções da página */
+section {
+    background-color: #202329; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #a12fc4; /*  títulos das seções */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px; /* Espaçamento entre parágrafos */
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #61AFEF; 
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #56B6C2; 
+    background-color: #1c1f24; 
+    color: #ABB2BF; 
+}
+
+input[type="submit"] {
+    background-color: #ffffff; 
+    color: #282C34; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #56B6C2; /* Azul turquesa ao passar o mouse */
+}
+
+/* Rodapé da página */
+footer {
+    background-color: #3E4451; 
+    color: #ABB2BF; 
+    text-align: left;
+    padding: 15px;
+    margin-top: auto;
+}
