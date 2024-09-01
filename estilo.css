@@ -9,9 +9,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-/*cabeçalho*/
+/* Cabeçalho */
 header {
-    background-color: #202329; 
+    background-color: #202329;
     color: #61AFEF; 
     padding: 20px;
     text-align: center;
